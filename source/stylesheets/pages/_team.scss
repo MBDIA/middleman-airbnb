@@ -1,6 +1,6 @@
 #team {
-  background-color: white;
-  color: white;
+  background-color: $pink;
+  color: $white;
   justify-content: space-around;
   text-align: center;
   p {
@@ -15,18 +15,19 @@
 
 .team-content {
   padding: 20px;
-  background-color: #D23333;
-  color: white;
+  background-color: $pink;
+  color: $white;
   height: 20vh;
   justify-content: space-around;
   text-align: center;
   width: 100%;
 }
 .card-team {
-  color: grey;
+  color: $gray;
   font-size: 10px;
     img {
   width: 45%;
+  border:3px solid $white;
   }
 }
 
