@@ -1,0 +1,21 @@
+
+<div id="team">
+  <div class="team-content text-center">
+    <h1>The team <i class="fa fa-heart"></i></h1>
+  </div>
+  <div class="card-team">
+    <div class="container">
+      <div class="row">
+        <% ["MBDIA", "poloduf", "monsieurpaillard"].each do |gh_username| %>
+        <div class="col-xs-12 col-sm-4">
+            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+            <h3><%= gh_username.capitalize %></h3>
+        </div>
+        <% end %>
+      </div>
+    </div>
+
+
+    </div>
+  </div>
+
